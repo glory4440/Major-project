@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        
+        <!-- Current Weather Section -->
+        <div class="current-weather">
+            <h2>Current Weather</h2>
+            <p><strong>Location:</strong> <span id="current-location"></span></p>
+            <p><strong>Temperature:</strong> <span id="current-temperature"></span>°C</p>
+            <p><strong>Conditions:</strong> <span id="current-conditions"></span></p>
+        </div>
+        
+        <!-- 7-Day Forecast Section -->
+        <div class="forecast">
+            <h2>7-Day Forecast</h2>
+            <div class="forecast-day">
+                <p><strong>Day 1:</strong> <span class="forecast-temp"></span>°C, <span class="forecast-conditions"></span></p>
+            </div>
+            <div class="forecast-day">
+                <p><strong>Day 2:</strong> <span class="forecast-temp"></span>°C, <span class="forecast-conditions"></span></p>
+            </div>
+            <div class="forecast-day">
+                <p><strong>Day 3:</strong> <span class="forecast-temp"></span>°C, <span class="forecast-conditions"></span></p>
+            </div>
+            <div class="forecast-day">
+                <p><strong>Day 4:</strong> <span class="forecast-temp"></span>°C, <span class="forecast-conditions"></span></p>
+            </div>
+            <div class="forecast-day">
+                <p><strong>Day 5:</strong> <span class="forecast-temp"></span>°C, <span class="forecast-conditions"></span></p>
+            </div>
+            <div class="forecast-day">
+                <p><strong>Day 6:</strong> <span class="forecast-temp"></span>°C, <span class="forecast-conditions"></span></p>
+            </div>
+            <div class="forecast-day">
+                <p><strong>Day 7:</strong> <span class="forecast-temp"></span>°C, <span class="forecast-conditions"></span></p>
+            </div>
+            <!-- Repeat for days 3 to 7 -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
